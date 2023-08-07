@@ -14,9 +14,10 @@ var config = webrtc.Configuration{
 			URLs: []string{"stun:stun.l.google.com:19302"},
 		},
 		{
-			URLs:       []string{"turn:34.210.41.65:3478"},
-			Username:   "",
-			Credential: "",
+			// update this for TURN connection to work
+			URLs:       []string{"turn:TURNIP:3478"},
+			Username:   "TURNUSERNAME",
+			Credential: "TURNUSERPASSWORD",
 		},
 	},
 }
