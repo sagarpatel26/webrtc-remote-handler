@@ -15,8 +15,8 @@ var config = webrtc.Configuration{
 		},
 		{
 			URLs:       []string{"turn:34.210.41.65:3478"},
-			Username:   "blakkhawkcaller",
-			Credential: "L8a3MmfdgVSFqZam",
+			Username:   "",
+			Credential: "",
 		},
 	},
 }
